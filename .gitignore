@@ -8,6 +8,10 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
+*/node_modules/**/*
 
 # macOS
 .DS_Store
+.runtimeconfig.json
+firebase-debug.log
+ui-debug.log
