@@ -13,7 +13,7 @@ import { theme } from './src/infrastructure/theme';
 import { Navigation } from './src/infrastructure/navigation';
 
 import { AuthenticationContextProvider } from './src/services/authentication/authentication.context';
-import firebaseConf from './src/utils/firebase-data';
+import { firebaseConf } from './src/utils/firebase-data';
 
 const firebaseConfig = firebaseConf;
 
